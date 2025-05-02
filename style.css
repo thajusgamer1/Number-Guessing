@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:monospace;
+}
+
+body{
+    background-color:rgb(165, 164, 164);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+}
+
+.container{
+    background-color:azure;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    padding:25px;
+    gap:15px;
+    border-radius:12px;
+    border:solid 2px black;
+    box-shadow:1, 6px, 10px, rgb(35, 35, 35),
+    1, 4px, 12px, rgb(35, 35, 35), inset;
+}
+
+#input1{
+    height:3.4em;
+    width:12em;
+    box-shadow:0 6px 10px rgb(35, 35, 35),
+    1 4px 12px rgb(35, 35, 35) inset;
+    border-radius:8px;
+    font-size:24px;
+    font-weight:500;
+    text-align:center;
+}
+
+#subBtn{
+    height:2.5em;
+    width:8em;
+    box-shadow:0 6px 10px rgb(35, 35, 35),
+    1 4px 12px rgb(35, 35, 35) inset;
+    border-radius:6px;
+    font-size:18px;
+    font-weight:500;
+}
